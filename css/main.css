@@ -1,0 +1,204 @@
+﻿/**** BASIC STYLE ****/
+
+body {
+	font-family: 'Source Sans Pro', sans serif; 
+}
+
+#about, #work, #contact {
+	height: 600px;
+}
+
+/**** GRID ****/
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+/**** HEADER ****/
+
+header {
+	height: 700px;
+	background: url("../img/banner.png");
+	background-size: cover;
+	border-bottom: 20px solid black;
+}
+
+header h1 {
+	padding: 50px 0;
+	font-family: Lora;
+	font-size: 30px;
+	font-weight: 1px;
+	color: #fffff;
+}
+
+nav ul {
+	list-style: none;
+	background-color: #000;
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 40px;
+}
+
+nav ul li a {
+	padding: 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #3376c1;
+}
+
+header h2 {
+	width: 1000px;
+	clear: both;
+	font-family: 'Lora', serif;
+	font-size: 72px;
+	line-height: -7px;
+	color: #262a2b;
+	padding: 20px 0;
+}
+
+header h2 span {
+	color:#fff;
+}
+
+.button {
+    background-color: #262a2b;
+    border-radius: 10px;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Edwardian Script ITC";
+    display: inline-block;
+    font-size: 35px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: auto;
+}
+
+
+/**** ABOUT ****/
+
+#about .full-width{
+	padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Lora', serif;
+	font-size: 36px;
+	color: #262a2b;
+}
+
+#about p {
+	color: #7f7f7f;
+	font-size: 21px;
+	line-height: 40px;
+	padding-right: 50px;
+	text-align: justify;
+}
+
+/**** WORK ****/
+
+#work {
+	background: #262a2b;		
+	text-align: center;
+}
+
+#work .full-width {
+	padding: 115px 0;
+}
+
+#work img {
+	padding-bottom: 30px;
+}
+
+#work h3 {
+	color: #fff;
+	font-size: 24px;
+	margin:  auto;
+	width: 180px;
+}
+
+#work p {
+	text-align: justify;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	line-height: 30px;
+	color: #fff;
+	padding: 0 35px;
+}
+
+/**** CONTACT ****/
+
+
+#contact .full-width {
+	padding: 110px;
+}
+
+#contact-img {
+	border: 12px solid #3376c1;	
+}
+
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+	padding-left: 115px;
+}
+
+#envelope {
+	padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+	font-family: 'Lora', serif;
+	font-size: 32px;
+}
+
+#email-header {
+	font-size: 26px;
+	font-weight: 1px;
+	margin: -30px 0 5px 0;
+}
+
+#socialmedia-header {
+	font-weight: 1px;
+	font-size: 29px;
+	margin: 40px 0 0 0;
+}
+
+#contact a {
+	text-decoration: none;
+	color: #3376c1;
+	font-size: 28px;
+	font-weight: 4px;
+}
+
+#contact ul {
+	list-style: none;
+}
+
+#contact ul li {
+	display: inline-block;
+}
+
+#contact ul img {
+	padding-right: 48px;
+}
